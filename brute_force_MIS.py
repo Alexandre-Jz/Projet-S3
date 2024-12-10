@@ -20,3 +20,7 @@ def brute_force_mis(graph):
                     MIS = set(subset)
 
     return MIS
+
+La commande itertools.combinations(iterable,n) permet de générer tous les sous-ensembles de taille n de l'itérable pris en entrée, sans répétitions.
+
+Pour l'ensemble ['A','B','C'], la commande itertools.combinations([1, 2, 3], 2) renvoie [('A', 'B'), ('A', 'C'), ('B', 'C')].
